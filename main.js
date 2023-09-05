@@ -1,5 +1,3 @@
-import "./style/main.scss";
-
 // Show menu
 
 const showMenu = (toggleId, navId) => {
