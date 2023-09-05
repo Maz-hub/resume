@@ -1,0 +1,62 @@
+.accueil {
+    position: relative;
+
+    &__container {
+        gap: 3rem;
+    }
+
+    &__data {
+        gap: .5rem;
+        text-align: center;
+    }
+
+    &__img {
+        width: 7.5em;
+        height: 7.5em;
+        border-radius: 50%;
+        justify-self: center;
+        margin-bottom: $mb-1;
+    }
+
+    &__title {
+        font-size: $h1-font-size;
+        
+    }
+
+    &__profession {
+        font-size: $normal-font-size;
+        margin-bottom: $mb-1;
+    }
+
+    &__address {
+        gap: 1rem;
+    }
+
+    &__information {
+        display: flex;
+        align-items: center;
+        font-size: $small-font-size;
+    }
+
+    &__icon {
+        font-size: 1.2rem;
+        margin-right: .5rem;
+    }
+
+    &__button-mobil {
+        display: inline-block;
+        border: 1px solid $text-color;
+        color: $title-color;
+        padding: .75rem 2rem;
+        border-radius: .25rem;
+        transition: 1s;
+        font-weight: $font-light;
+        margin-top: $mb-3;
+    }
+
+    &__button-mobil:hover {
+        background-color: $title-color;
+        color: $container-color;
+        border: 1px solid $title-color;
+    }
+}

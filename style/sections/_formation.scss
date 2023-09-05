@@ -1,0 +1,49 @@
+.formation {
+
+    &__content {
+        display: flex;
+    }
+
+    &__time {
+        padding-right: 1rem;
+    }
+
+    &__rounder {
+        position: relative;
+        display: block;
+        width: 16px;
+        height: 16px;
+        background-color: $icon-color;
+        border-radius: 50%;
+        margin-top: .25rem;
+    }
+
+    &__line {
+        display: block;
+        width: 2px;
+        height: 110%;
+        background-color: $icon-color;
+        transform: translate(7px, 0);
+    }
+
+    &__data {
+        gap: .5rem;
+    }
+
+    &__title {
+        font-size: $h3-font-size;
+    }
+
+    &__studies, &__place {
+        font-size: $small-font-size;
+        color: $title-color;
+    }
+
+    &__year {
+        font-size: $smaller-font-size;
+    }
+
+    &__mg {
+        margin-top: $mb-3;
+    }
+}
